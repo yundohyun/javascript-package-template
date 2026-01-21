@@ -1,0 +1,28 @@
+{
+  "name": "js-libs-template",
+  "version": "0.0.1",
+  "description": "",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yundohyun/js-libs-template.git"
+  },
+  "keywords": [],
+  "author": "yundohyun",
+  "license": "MIT"
+}

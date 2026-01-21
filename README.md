@@ -1,7 +1,7 @@
-<h1 align="center">JavaScript & TypeScript Library Template</h1>
+<h1 align="center">JavaScript & TypeScript Package Template</h1>
 
 <p align="center">
-간결하고 강력한 환경을 제공하는 <b>JavaScript & TypeScript 라이브러리 개발 템플릿</b>입니다.<br>
+간결하고 강력한 환경을 제공하는 <b>JavaScript & TypeScript 패키지 개발 템플릿</b>입니다.<br>
 <code>tsup</code>을 기반으로 CJS, ESM 빌드를 지원하며 GitHub Actions를 통한 자동 배포 시스템이 구축되어 있습니다.
 </p>
 
@@ -20,10 +20,10 @@ GitHub 레포지토리를 통해 직접 의존성을 추가할 수 있습니다.
 
 ```bash
 # 최신 안정 버전(release 브랜치) 설치
-npm install github:yundohyun/js-libs-template#release
+npm install github:yundohyun/javascript-package-template#release
 
 # 특정 태그(버전) 설치
-npm install github:yundohyun/js-libs-template#v0.0.1
+npm install github:yundohyun/javascript-package-template#v0.0.1
 ```
 
 ---

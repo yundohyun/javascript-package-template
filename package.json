@@ -1,5 +1,5 @@
 {
-  "name": "js-libs-template",
+  "name": "javascript-package-template",
   "version": "0.0.1",
   "description": "",
   "types": "./dist/index.d.ts",
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yundohyun/js-libs-template.git"
+    "url": "git+https://github.com/yundohyun/javascript-package-template.git"
   },
   "keywords": [],
   "author": "yundohyun",

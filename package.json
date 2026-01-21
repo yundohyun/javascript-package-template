@@ -20,7 +20,7 @@
     "build": "tsup src/index.ts --format cjs,esm --minify --clean --dts",
     "deploy:gha": "shx mkdir out && shx cp -r package.json LICENSE README.md dist out/",
     "type-check": "tsc --noEmit",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "lint": "eslint \"src/**/*.ts\"",

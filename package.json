@@ -18,7 +18,7 @@
   "scripts": {
     "dev": "tsup src/index.ts --format cjs,esm --watch --dts",
     "build": "tsup src/index.ts --format cjs,esm --minify --clean --dts",
-    "deploy:gha": "shx mkdir out && shx cp -r package.json LICENSE README.md dist out/",
+    "deploy:gha": "shx mkdir out && shx cp -r package.json LICENSE dist out/",
     "type-check": "tsc --noEmit",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
